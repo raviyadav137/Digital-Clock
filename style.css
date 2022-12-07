@@ -5,6 +5,7 @@
 }
 body{
     background-color: #3D087B;
+  
 }
 .container{
     width:100%;
@@ -25,8 +26,8 @@ img{
    top:20px;
 }
 .item1{
-    width: 79%;
-    height: 325px;
+    width: 72%;
+    height: 290px;
     background-color: white;
     border-radius: 5px;
     position: relative;
@@ -39,18 +40,18 @@ img{
     width:39px;
 }
 .text1{
-    font-size: 25px;
+    font-size: 15px;
     position: relative;
-    left:40px;
+    left:30px;
     color:#3D087B
 }
 .dropbox1{
-    position:relative;
-    width:350px; 
-    height:30px;
+    position: relative;
+    width: 278px;
+    height: 30px;
     border-radius: 5px;
-    left:70px;
-    color:#3D087B;
+    left: 34px;
+    color: #3D087B;
     border: 2px solid #ededed;
 }
 .img2{
@@ -61,18 +62,18 @@ img{
     height:35px;
 }
 .text2{
-    font-size: 25px;
+    font-size: 15px;
     position: relative;
-    left:40px;
+    left:30px;
     color:#3D087B
 }
 .dropbox2{
-    position:relative;
-    width:350px; 
-    height:30px;
+    position: relative;
+    width: 279px;
+    height: 30px;
     border-radius: 5px;
-    left:87px;
-    color:#3D087B;
+    left: 45px;
+    color: #3D087B;
     border: 2px solid #ededed;
 }
 .img3{
@@ -83,19 +84,20 @@ img{
     height:35px;
 }
 .text3{
-    font-size: 25px;
+    font-size: 15px;
     position: relative;
-    left:40px;
+    left:30px;
     color:#3D087B
 }
 .dropbox3{
-    position:relative;
-    width:350px; 
-    height:30px;
+    position: relative;
+    width: 278px;
+    height: 30px;
     border-radius: 5px;
-    left:113px;
-    color:#3D087B;
+    left: 64px;
+    color: #3D087B;
     border: 2px solid #ededed;
+
 }
 .img4{
     position: relative;
@@ -105,30 +107,30 @@ img{
     height:35px;
 }
 .text4{
-    font-size: 25px;
+    font-size: 15px;
     position: relative;
-    left:40px;
+    left:30px;
     color:#3D087B
 }
 .dropbox4{
-    position:relative;
-    width:350px; 
-    height:30px;
+    position: relative;
+    width: 280px;
+    height: 30px;
     border-radius: 5px;
-    left:97px;
-    color:#3D087B;
+    left: 55px;
+    color: #3D087B;
     border: 2px solid #ededed;
 }
 .item2{
-    width: 79%;
-    height: 80px;
-    background-color:#8E53F0 ;
+    width: 72%;
+    height: 76px;
+    background-color: #8E53F0;
     border-radius: 5px;
     position: relative;
     top: 50px;
     left: 169px;
     padding-left: 20px;
-    color:white;
+    color: white;
     padding-top: 20px;
     font-size: 20px;
     text-transform: uppercase;
@@ -147,10 +149,10 @@ img{
 }
 .sub-item1{
     position: relative;
-    top:20px; 
-    width: 180px;
+    top: 20px;
+    width: 141px;
     color: white;
-    padding: 15px 40px;
+    padding: 11px 23px;
     font-size: 20px;
     height: 54px;
     background: transparent linear-gradient(113deg, #6E54EC 0%, #CB52F8 40%, #FC5EFF 81%, #F1A7C5 100%) 0% 0% no-repeat padding-box;
@@ -169,15 +171,15 @@ img{
     color: white;
   }
 .sub-item2{
-    width: 379px;
-    height: 176px;
+    width: 328px;
+    height: 147px;
     background-color: #8E53F0;
-   position:relative;
-   right:0;
+    position: relative;
+    right: 43px;
     border-radius: 5px;
-    color:#F1A7C5;
-    padding:12px 7px;
-    line-height: 35px;
+    color: #F1A7C5;
+    padding: 9px 4px;
+    line-height: 32px;
 }
 
 .right-box{
@@ -281,7 +283,7 @@ img{
 }
 .container2{
     width:75%;
-    height:80px;
+    height:71px;
     background-color: white;
     margin-bottom: 30px;
     border-radius: 5px;
@@ -290,10 +292,11 @@ img{
 }
 .container3{
     width:75%;
-    height:400px;
+    height:350px;
     background-color: white;
     border-radius: 5px;
     background-image: url(./morning.jpg);
     background-position: center;
     background-size: contain;
+    background-size: cover;
 }
