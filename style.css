@@ -123,17 +123,18 @@ img{
 }
 .item2{
     width: 72%;
-    height: 76px;
+    height: 92px;
     background-color: #8E53F0;
     border-radius: 5px;
     position: relative;
-    top: 50px;
+    top: 52px;
     left: 169px;
     padding-left: 20px;
     color: white;
     padding-top: 20px;
     font-size: 20px;
     text-transform: uppercase;
+    padding-top: 33px;
 }
 .item3{
     width: 79%;
@@ -172,7 +173,7 @@ img{
   }
 .sub-item2{
     width: 328px;
-    height: 147px;
+    height: 135px;
     background-color: #8E53F0;
     position: relative;
     right: 43px;
@@ -205,66 +206,68 @@ img{
     position: relative;
     padding: 35px 12px;
     font-size: 20px;
+    font-size: 20px;
 }
-.hour {
-    width: 60px;
-    height: 60px;
+.Hours {
+    width: 75px;
+    height: 70px;
     border: none;
     position: absolute;
-    margin-left: 80px;
-    margin-top: -74px;
+    margin-left: 70px;
+    margin-top: -75px;
     font-size: 20px;
-    background-image: url(./timeline.jpg);
+    background-image: url(./Image/timeline.jpg);
     color: #8a11bf;
   }
-  .min {
-    width: 60px;
-    height: 60px;
+  .Minutes {
+    width: 77px;
+    height: 70px;
     border: none;
     font-size: 20px;
     position: absolute;
-    margin-left: 160px;
-    margin-top: -74px;
-  
-    background-image: url(./timeline.jpg);
+    margin-left: 180px;
+    margin-top: -76px;
+    background-image: url(./Image/timeline.jpg);
     color: #8a11bf;
   }
   .dot1 {
-    margin-left: 60px;
+    margin-left: 85px;
     margin-top: -35px;
     font-size: 30px;
   }
   
-  .sec {
+  .Seconds {
     border: none;
     font-size: 20px;
     color: #8a11bf;
-    width: 60px;
-    height: 60px;
+    width: 84px;
+    height: 71px;
     position: absolute;
-    margin-left: 240px;
-  
-    margin-top: -74px;
-    background-image: url(./timeline.jpg);
+    margin-left: 290px;
+    margin-top: -78px;
+    background-image: url(./Image/timeline.jpg);
   }
-  .am {
-    width: 60px;
-    height: 60px;
+  .Session {
     border: none;
+    font-size: 20px;
+    color: #8a11bf;
+    width: 87px;
+    height: 74px;
     position: absolute;
-    margin-left: 320px;
-    margin-top: -74px;
-    background-image: linear-gradient(113deg, #6e54ec, #cb52f8, #fc5eff);
-    background-image: url(./AM1_svg.svg);
-    font-size: -74px;
-    color: white;
+    margin-left: 400px;
+    margin-top: -78px;
+    background-image: url(./Image/timeline.jpg);
   }
+#Time{
+    position:absolute;
+    top:10px;
+}
   .back-box1{
     width: 73%;
-    height: 29px;
+    height: 9px;
     background-color: white;
     margin-bottom: 30px;
-    margin-top: -52px;
+    margin-top: -34px;
     margin-left: 10px;
     border-radius: 5px;
     z-index: 0;
@@ -283,19 +286,20 @@ img{
 }
 .container2{
     width:75%;
-    height:71px;
+    height:95px;
     background-color: white;
     margin-bottom: 30px;
     border-radius: 5px;
-    color: #6E54EC;
+    color: #8E53F0;
     padding: 15px 12px;
+    font-size: 35px;
 }
 .container3{
     width:75%;
     height:350px;
     background-color: white;
     border-radius: 5px;
-    background-image: url(./morning.jpg);
+    background-image: url(./Image/morning.jpg);
     background-position: center;
     background-size: contain;
     background-size: cover;
