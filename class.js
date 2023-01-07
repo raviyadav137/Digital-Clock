@@ -4,7 +4,13 @@ function displayTime(){
    let hrs=dateTime.getHours();
    let min=dateTime.getMinutes();
    let sec=dateTime.getSeconds();
-   let Session = dateTime.getHours() >= 12 ? "PM" : "AM";
+    let ses=document.getElementById("Session1");
+   if(hrs>=12){
+    ses.innerText="PM";
+   }
+   else{
+    ses.innerText="AM"
+   }
 
    if (hrs === 0) {
      hrs = 12;
@@ -24,7 +30,6 @@ function displayTime(){
    document.getElementById("hh").innerText = hrs;
    document.getElementById("mm").innerText = min;
    document.getElementById("ss").innerText = sec;
-   document.getElementById("ampm").innerHTML = Session;
    if (hrs >= 1 && hrs <= 4 && Session === "PM") {
     let a = document.getElementById("wakeup");
 
